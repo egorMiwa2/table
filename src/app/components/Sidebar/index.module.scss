@@ -1,0 +1,26 @@
+.container {
+  height: 100vh;
+  flex: 1;
+  border-right: 1px black solid;
+  box-shadow: 0px 2px 3px 3px rgba(0, 0, 0, 0.281);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 1rem 2rem;
+}
+
+.button {
+  width: 100% !important;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem !important;
+  & p {
+    color: red;
+  }
+}
