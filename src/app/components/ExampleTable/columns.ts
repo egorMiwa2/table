@@ -13,7 +13,7 @@ export const columns: GridColDef[] = [
     headerName: "Date",
     flex: 1,
     headerClassName: styles.headerCell1,
-    valueGetter: (value: Date) => value.toLocaleDateString("en-US"),
+    valueGetter: (value: Date) => value.toLocaleDateString("ru-RU"),
   },
   {
     field: "game",
